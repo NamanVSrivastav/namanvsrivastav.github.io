@@ -56,6 +56,16 @@ nav {
 .links a:hover {
     color: #87CEEB;
 }
+.hamburg,
+.cancel{
+    cursor: pointer;
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    color: white;
+    display: none;
+    font-size: clamp(2.5rem, 0.5rem + 5vw, 3rem);
+}
 
 /* Dropdown Menu (Mobile) */
 .dropdown {
