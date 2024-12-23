@@ -20,7 +20,7 @@ body {
 /* Navbar */
 nav {
     width: 100%;
-    position: sticky;
+    position: fixed;
     top: 0;
     background: black;
     z-index: 1000;
