@@ -68,7 +68,7 @@ nav {
 }
 
 /* Dropdown Menu (Mobile) */
-.dropdown {
+.dropdown{
     z-index: 100;
     position: absolute;
     top: 0;
@@ -76,21 +76,23 @@ nav {
     width: 100%;
     height: auto;
     backdrop-filter: blur(4px) brightness(40%);
-    box-shadow: 0 0 20px black;
+    box-shadow:  0 0 20px black;
     transition: 0.2s linear;
 }
 
-.dropdown .links a {
+.dropdown .links a{
     display: flex;
+    color: white;
+    text-decoration: none;
     justify-content: center;
     padding: 15px 0;
+    align-items: center;
     transition: 0.2s linear;
 }
 
-.dropdown .links a:hover {
-    background-color: #87CEEB;
+.dropdown .links a:hover{
+    background-color: #077b32;
 }
-
 /* Hero Section */
 section {
     width: 100%;
