@@ -449,3 +449,31 @@ section {
         max-width: 100%;
     }
 }
+/* Center-align all headings */
+.skill-title {
+  text-align: center;
+  font-size: 20px;
+  margin: 20px 0;
+}
+
+/* Center-align images within categories */
+.tech-logos {
+  display: flex;
+  flex-wrap: wrap; /* Allows wrapping for images */
+  justify-content: center; /* Centers content horizontally */
+  gap: 15px; /* Adds spacing between images */
+}
+
+/* Style for the overall section */
+.projects-section {
+  padding: 40px 20px;
+  background-color: #f9f9f9;
+}
+
+/* Style for the section title */
+.section-title {
+  text-align: center;
+  font-size: 26px;
+  margin-bottom: 30px;
+  color: #333;
+}
