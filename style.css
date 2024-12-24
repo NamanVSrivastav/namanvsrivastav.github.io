@@ -449,31 +449,53 @@ section {
         max-width: 100%;
     }
 }
-/* Center-align all headings */
+
+/* Center-align the titles */
+.programming-title {
+    text-align: center;
+    width: 100%; /* Ensures the text spans the full width of its parent */
+    margin: 20px 0; /* Adds spacing above and below the text */
+  }
+  
+  /* Center-align images */
+  .tech-logos {
+    display: flex;
+    flex-wrap: wrap; /* Allows wrapping for images */
+    justify-content: center; /* Horizontally centers child elements */
+    gap: 10px; /* Adds spacing between images */
+  }
+  
+  /* Style for the section title */
+  .section-title {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 24px;
+  }
+  /* Center-align all headings */
 .skill-title {
-  text-align: center;
-  font-size: 20px;
-  margin: 20px 0;
-}
-
-/* Center-align images within categories */
-.tech-logos {
-  display: flex;
-  flex-wrap: wrap; /* Allows wrapping for images */
-  justify-content: center; /* Centers content horizontally */
-  gap: 15px; /* Adds spacing between images */
-}
-
-/* Style for the overall section */
-.projects-section {
-  padding: 40px 20px;
-  background-color: #f9f9f9;
-}
-
-/* Style for the section title */
-.section-title {
-  text-align: center;
-  font-size: 26px;
-  margin-bottom: 30px;
-  color: #333;
-}
+    text-align: center;
+    font-size: 20px;
+    margin: 20px 0;
+  }
+  
+  /* Center-align images within categories */
+  .tech-logos {
+    display: flex;
+    flex-wrap: wrap; /* Allows wrapping for images */
+    justify-content: center; /* Centers content horizontally */
+    gap: 15px; /* Adds spacing between images */
+  }
+  
+  /* Style for the overall section */
+  .projects-section {
+    padding: 40px 20px;
+    background-color: #000000;
+  }
+  
+  /* Style for the section title */
+  .section-title {
+    text-align: center;
+    font-size: 26px;
+    margin-bottom: 30px;
+    color: #ffffff;
+  }
